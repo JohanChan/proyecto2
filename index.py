@@ -1,5 +1,3 @@
-import enum
-from turtle import end_fill
 from sklearn.tree import DecisionTreeClassifier, plot_tree
 import streamlit as st
 import pandas as pd
@@ -9,7 +7,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn import preprocessing
 from sklearn.naive_bayes import GaussianNB
-#from sklearn.metrics import mean_squared_error, r2_score
+
 uploaded_file = None
 dataframe = None
 operacion = ''
